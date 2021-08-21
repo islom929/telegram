@@ -555,7 +555,12 @@ position: relative;
   transform: translateX(0);
 }
 
-.hero-smile__box {
+.hero-smile__box--pin {
   overflow: auto;
   height: 86vh;
+}
+
+.hero-smile__box {
+  overflow: auto;
+  height: 92vh;
 }

@@ -7,7 +7,6 @@
   font-display: swap;
 } */
 
-
 html {
   box-sizing: border-box;
   height: 100%;
@@ -61,8 +60,8 @@ img {
 }
 
 .chat__input::placeholder {
-color: #888;
-font-size: 20px;
+  color: #888;
+  font-size: 20px;
 }
 
 .lock {
@@ -198,7 +197,7 @@ font-size: 20px;
 }
 
 .hero-left__list .active .chanel::before{
-background-image: url("../img/icon-chanel-white.svg");
+  background-image: url("../img/icon-chanel-white.svg");
 }
 
 .hero-left__list .active .bot::before{
@@ -235,19 +234,6 @@ display: none;
   font-size: 16px;
   white-space: nowrap;
 }
-/*
-.chat__title {
-  font-size: 18px;
-}
-
-.chat__text {
-  font-size: 14px;
-}
-
-.active-text {
-  font-size: 15px;
-} */
-
 
 .admin-notification::before{
 content: "";
@@ -368,6 +354,7 @@ top: 20px;
 }
 
 /* CHAT PANEL */
+
 .chat__panel{
   width: 100%;
   z-index: 999;
@@ -426,7 +413,7 @@ top: 20px;
 }
 
 .admin__acount{
-position: relative;
+  position: relative;
 }
 
 .admin__acount::before {
